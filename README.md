@@ -9,3 +9,9 @@ Arduino LED Christmas Tree
 
 ### Down/Up/Round Mode
 ![Image of Down/Up/Round Mode](https://github.com/devldavydov/LEDChristmasTree/blob/master/media/ChristmasTreeDownUpRound.GIF)
+
+### Register Full/Count Mode
+![Image of Register Full/Count Mode](https://github.com/devldavydov/LEDChristmasTree/blob/master/media/ChristmasTreeRegisterFullCnt.GIF)
+
+### Snake Mode
+![Image of Snake Mode](https://github.com/devldavydov/LEDChristmasTree/blob/master/media/ChristmasTreeSnake.GIF)
