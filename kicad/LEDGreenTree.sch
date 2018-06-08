@@ -1,0 +1,1295 @@
+EESchema Schematic File Version 2
+LIBS:Video
+LIBS:Valve
+LIBS:Triac_Thyristor
+LIBS:Transistor_IGBT
+LIBS:Transistor_FET
+LIBS:Transistor_BJT
+LIBS:Transistor_Array
+LIBS:Transformer
+LIBS:Timer_RTC
+LIBS:Timer_PLL
+LIBS:Timer
+LIBS:Switch
+LIBS:Sensor_Voltage
+LIBS:Sensor_Touch
+LIBS:Sensor_Temperature
+LIBS:Sensor_Proximity
+LIBS:Sensor_Pressure
+LIBS:Sensor_Optical
+LIBS:Sensor_Motion
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Humidity
+LIBS:Sensor_Gas
+LIBS:Sensor_Current
+LIBS:Sensor_Audio
+LIBS:Sensor
+LIBS:RF_ZigBee
+LIBS:RF_WiFi
+LIBS:RF_Switch
+LIBS:RF_RFID
+LIBS:RF_Module
+LIBS:RF_Mixer
+LIBS:RF_GPS
+LIBS:RF_Bluetooth
+LIBS:RF_Amplifier
+LIBS:RF_AM_FM
+LIBS:RF
+LIBS:Relay_SolidState
+LIBS:Relay
+LIBS:Regulator_Switching
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Linear
+LIBS:Regulator_Current
+LIBS:Regulator_Controller
+LIBS:Reference_Voltage
+LIBS:Reference_Current
+LIBS:pspice
+LIBS:Power_Supervisor
+LIBS:Power_Protection
+LIBS:Power_Management
+LIBS:power
+LIBS:Potentiometer_Digital
+LIBS:Oscillator
+LIBS:Motor
+LIBS:Memory_UniqueID
+LIBS:Memory_ROM
+LIBS:Memory_RAM
+LIBS:Memory_NVRAM
+LIBS:Memory_Flash
+LIBS:Memory_EPROM
+LIBS:Memory_EEPROM
+LIBS:Memory_Controller
+LIBS:Mechanical
+LIBS:MCU_Texas_MSP430
+LIBS:MCU_Texas
+LIBS:MCU_ST_STM32
+LIBS:MCU_ST_STM8
+LIBS:MCU_SiliconLabs
+LIBS:MCU_SiFive
+LIBS:MCU_Parallax
+LIBS:MCU_NXP_S08
+LIBS:MCU_NXP_MCore
+LIBS:MCU_NXP_MAC7100
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_HCS12
+LIBS:MCU_NXP_HC12
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_ColdFire
+LIBS:MCU_Nordic
+LIBS:MCU_Module
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_AVR
+LIBS:MCU_Microchip_ATtiny
+LIBS:MCU_Microchip_ATmega
+LIBS:MCU_Microchip_8051
+LIBS:MCU_Intel
+LIBS:MCU_Infineon
+LIBS:MCU_Espressif
+LIBS:MCU_Cypress
+LIBS:MCU_AnalogDevices
+LIBS:Logic_Programmable
+LIBS:Logic_LevelTranslator
+LIBS:LED
+LIBS:Jumper
+LIBS:Isolator_Analog
+LIBS:Isolator
+LIBS:Interface_USB
+LIBS:Interface_UART
+LIBS:Interface_Telecom
+LIBS:Interface_Optical
+LIBS:Interface_LineDriver
+LIBS:Interface_HID
+LIBS:Interface_Expansion
+LIBS:Interface_Ethernet
+LIBS:Interface_CurrentLoop
+LIBS:Interface_CAN_LIN
+LIBS:Interface
+LIBS:Graphic
+LIBS:GPU
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Actel
+LIBS:Filter
+LIBS:DSP_Texas
+LIBS:DSP_Motorola
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Freescale
+LIBS:Driver_Relay
+LIBS:Driver_Motor
+LIBS:Driver_LED
+LIBS:Driver_FET
+LIBS:Driver_Display
+LIBS:Display_Graphic
+LIBS:Display_Character
+LIBS:Diode_Laser
+LIBS:Diode_Bridge
+LIBS:Diode
+LIBS:Device
+LIBS:CPU_PowerPC
+LIBS:CPU_NXP_68000
+LIBS:CPU_NXP_6800
+LIBS:CPU
+LIBS:CPLD_Xilinx
+LIBS:CPLD_Altera
+LIBS:Converter_DCDC
+LIBS:Converter_ACDC
+LIBS:Connector_Specialized
+LIBS:Connector_Generic_Shielded
+LIBS:Connector_Generic_MountingPin
+LIBS:Connector_Generic
+LIBS:Comparator
+LIBS:Battery_Management
+LIBS:Audio
+LIBS:Analog_Switch
+LIBS:Analog_DAC
+LIBS:Analog_ADC
+LIBS:Analog
+LIBS:Amplifier_Video
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Current
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Audio
+LIBS:74xx_IEEE
+LIBS:74xx
+LIBS:74xGxx
+LIBS:4xxx_IEEE
+LIBS:4xxx
+LIBS:LEDGreenTree-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 11693 16535 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED R-1.1
+U 1 1 5AB8A450
+P 3250 1100
+F 0 "R-1.1" H 3250 1200 50  0000 C CNN
+F 1 "LED" H 3250 1000 50  0000 C CNN
+F 2 "" H 3250 1100 50  0001 C CNN
+F 3 "" H 3250 1100 50  0001 C CNN
+	1    3250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED R-1.2
+U 1 1 5AB8A4E4
+P 4250 1100
+F 0 "R-1.2" H 4250 1200 50  0000 C CNN
+F 1 "LED" H 4250 1000 50  0000 C CNN
+F 2 "" H 4250 1100 50  0001 C CNN
+F 3 "" H 4250 1100 50  0001 C CNN
+	1    4250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8A83B
+P 3400 1350
+F 0 "220_Om" V 3480 1350 50  0000 C CNN
+F 1 "R" V 3400 1350 50  0000 C CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	1    0    0    1   
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8A98A
+P 4400 1350
+F 0 "220_Om" V 4480 1350 50  0000 C CNN
+F 1 "R" V 4400 1350 50  0000 C CNN
+F 2 "" H 4400 1350 50  0001 C CNN
+F 3 "" H 4400 1350 50  0001 C CNN
+	1    4400 1350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED G-1.3
+U 1 1 5AB8BE2D
+P 2750 2100
+F 0 "G-1.3" H 2750 2200 50  0000 C CNN
+F 1 "LED" H 2750 2000 50  0000 C CNN
+F 2 "" H 2750 2100 50  0001 C CNN
+F 3 "" H 2750 2100 50  0001 C CNN
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED G-1.4
+U 1 1 5AB8BEE8
+P 4750 2100
+F 0 "G-1.4" H 4750 2200 50  0000 C CNN
+F 1 "LED" H 4750 2000 50  0000 C CNN
+F 2 "" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8BFF3
+P 2900 2350
+F 0 "220_Om" V 2980 2350 50  0000 C CNN
+F 1 "R" V 2900 2350 50  0000 C CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8C02A
+P 4900 2350
+F 0 "220_Om" V 4980 2350 50  0000 C CNN
+F 1 "R" V 4900 2350 50  0000 C CNN
+F 2 "" H 4900 2350 50  0001 C CNN
+F 3 "" H 4900 2350 50  0001 C CNN
+	1    4900 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED B-1.5
+U 1 1 5AB8C1A1
+P 1750 3100
+F 0 "B-1.5" H 1750 3200 50  0000 C CNN
+F 1 "LED" H 1750 3000 50  0000 C CNN
+F 2 "" H 1750 3100 50  0001 C CNN
+F 3 "" H 1750 3100 50  0001 C CNN
+	1    1750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED B-1.6
+U 1 1 5AB8C200
+P 5750 3100
+F 0 "B-1.6" H 5750 3200 50  0000 C CNN
+F 1 "LED" H 5750 3000 50  0000 C CNN
+F 2 "" H 5750 3100 50  0001 C CNN
+F 3 "" H 5750 3100 50  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8C35B
+P 1900 3350
+F 0 "220_Om" V 1980 3350 50  0000 C CNN
+F 1 "R" V 1900 3350 50  0000 C CNN
+F 2 "" H 1900 3350 50  0001 C CNN
+F 3 "" H 1900 3350 50  0001 C CNN
+	1    1900 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8C39E
+P 5900 3350
+F 0 "220_Om" V 5980 3350 50  0000 C CNN
+F 1 "R" V 5900 3350 50  0000 C CNN
+F 2 "" H 5900 3350 50  0001 C CNN
+F 3 "" H 5900 3350 50  0001 C CNN
+	1    5900 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED Y-1.7
+U 1 1 5AB8CDCA
+P 1250 4100
+F 0 "Y-1.7" H 1250 4200 50  0000 C CNN
+F 1 "LED" H 1250 4000 50  0000 C CNN
+F 2 "" H 1250 4100 50  0001 C CNN
+F 3 "" H 1250 4100 50  0001 C CNN
+	1    1250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8CDFB
+P 1400 4350
+F 0 "220_Om" V 1480 4350 50  0000 C CNN
+F 1 "R" V 1400 4350 50  0000 C CNN
+F 2 "" H 1400 4350 50  0001 C CNN
+F 3 "" H 1400 4350 50  0001 C CNN
+	1    1400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED Y-1.8
+U 1 1 5AB8CE4A
+P 6250 4100
+F 0 "Y-1.8" H 6250 4200 50  0000 C CNN
+F 1 "LED" H 6250 4000 50  0000 C CNN
+F 2 "" H 6250 4100 50  0001 C CNN
+F 3 "" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB8CEC1
+P 6400 4350
+F 0 "220_Om" V 6480 4350 50  0000 C CNN
+F 1 "R" V 6400 4350 50  0000 C CNN
+F 2 "" H 6400 4350 50  0001 C CNN
+F 3 "" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED W-3.1
+U 1 1 5AB90056
+P 2250 4100
+F 0 "W-3.1" H 2250 4200 50  0000 C CNN
+F 1 "LED" H 2250 4000 50  0000 C CNN
+F 2 "" H 2250 4100 50  0001 C CNN
+F 3 "" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB900B7
+P 2400 4350
+F 0 "220_Om" V 2480 4350 50  0000 C CNN
+F 1 "R" V 2400 4350 50  0000 C CNN
+F 2 "" H 2400 4350 50  0001 C CNN
+F 3 "" H 2400 4350 50  0001 C CNN
+	1    2400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED R-2.1
+U 1 1 5AB903CF
+P 3250 4100
+F 0 "R-2.1" H 3250 4200 50  0000 C CNN
+F 1 "LED" H 3250 4000 50  0000 C CNN
+F 2 "" H 3250 4100 50  0001 C CNN
+F 3 "" H 3250 4100 50  0001 C CNN
+	1    3250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB904D5
+P 3400 4350
+F 0 "220_Om" V 3480 4350 50  0000 C CNN
+F 1 "R" V 3400 4350 50  0000 C CNN
+F 2 "" H 3400 4350 50  0001 C CNN
+F 3 "" H 3400 4350 50  0001 C CNN
+	1    3400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED R-2.2
+U 1 1 5AB90915
+P 4250 4100
+F 0 "R-2.2" H 4250 4200 50  0000 C CNN
+F 1 "LED" H 4250 4000 50  0000 C CNN
+F 2 "" H 4250 4100 50  0001 C CNN
+F 3 "" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB90A00
+P 4400 4350
+F 0 "220_Om" V 4480 4350 50  0000 C CNN
+F 1 "R" V 4400 4350 50  0000 C CNN
+F 2 "" H 4400 4350 50  0001 C CNN
+F 3 "" H 4400 4350 50  0001 C CNN
+	1    4400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED W-3.2
+U 1 1 5AB91236
+P 5250 4100
+F 0 "W-3.2" H 5250 4200 50  0000 C CNN
+F 1 "LED" H 5250 4000 50  0000 C CNN
+F 2 "" H 5250 4100 50  0001 C CNN
+F 3 "" H 5250 4100 50  0001 C CNN
+	1    5250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AB91346
+P 5400 4350
+F 0 "220_Om" V 5480 4350 50  0000 C CNN
+F 1 "R" V 5400 4350 50  0000 C CNN
+F 2 "" H 5400 4350 50  0001 C CNN
+F 3 "" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L LED G-2.3
+U 1 1 5AD5B093
+P 2750 5100
+F 0 "G-2.3" H 2750 5200 50  0000 C CNN
+F 1 "LED" H 2750 5000 50  0000 C CNN
+F 2 "" H 2750 5100 50  0001 C CNN
+F 3 "" H 2750 5100 50  0001 C CNN
+	1    2750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED G-2.4
+U 1 1 5AD5CF7B
+P 4750 5100
+F 0 "G-2.4" H 4750 5200 50  0000 C CNN
+F 1 "LED" H 4750 5000 50  0000 C CNN
+F 2 "" H 4750 5100 50  0001 C CNN
+F 3 "" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD5D0D0
+P 2900 5350
+F 0 "220_Om" V 2980 5350 50  0000 C CNN
+F 1 "R" V 2900 5350 50  0000 C CNN
+F 2 "" H 2900 5350 50  0001 C CNN
+F 3 "" H 2900 5350 50  0001 C CNN
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD5D1CD
+P 4900 5350
+F 0 "220_Om" V 4980 5350 50  0000 C CNN
+F 1 "R" V 4900 5350 50  0000 C CNN
+F 2 "" H 4900 5350 50  0001 C CNN
+F 3 "" H 4900 5350 50  0001 C CNN
+	1    4900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED B-2.5
+U 1 1 5AD5E572
+P 1750 6100
+F 0 "B-2.5" H 1750 6200 50  0000 C CNN
+F 1 "LED" H 1750 6000 50  0000 C CNN
+F 2 "" H 1750 6100 50  0001 C CNN
+F 3 "" H 1750 6100 50  0001 C CNN
+	1    1750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD5EB1F
+P 1900 6350
+F 0 "220_Om" V 1980 6350 50  0000 C CNN
+F 1 "R" V 1900 6350 50  0000 C CNN
+F 2 "" H 1900 6350 50  0001 C CNN
+F 3 "" H 1900 6350 50  0001 C CNN
+	1    1900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED B-2.6
+U 1 1 5AD5EEC0
+P 5750 6100
+F 0 "B-2.6" H 5750 6200 50  0000 C CNN
+F 1 "LED" H 5750 6000 50  0000 C CNN
+F 2 "" H 5750 6100 50  0001 C CNN
+F 3 "" H 5750 6100 50  0001 C CNN
+	1    5750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD5F051
+P 5900 6350
+F 0 "220_Om" V 5980 6350 50  0000 C CNN
+F 1 "R" V 5900 6350 50  0000 C CNN
+F 2 "" H 5900 6350 50  0001 C CNN
+F 3 "" H 5900 6350 50  0001 C CNN
+	1    5900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED Y-2.7
+U 1 1 5AD601EC
+P 1250 7100
+F 0 "Y-2.7" H 1250 7200 50  0000 C CNN
+F 1 "LED" H 1250 7000 50  0000 C CNN
+F 2 "" H 1250 7100 50  0001 C CNN
+F 3 "" H 1250 7100 50  0001 C CNN
+	1    1250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD60596
+P 1400 7350
+F 0 "220_Om" V 1480 7350 50  0000 C CNN
+F 1 "R" V 1400 7350 50  0000 C CNN
+F 2 "" H 1400 7350 50  0001 C CNN
+F 3 "" H 1400 7350 50  0001 C CNN
+	1    1400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED Y-2.8
+U 1 1 5AD61AD3
+P 6250 7100
+F 0 "Y-2.8" H 6250 7200 50  0000 C CNN
+F 1 "LED" H 6250 7000 50  0000 C CNN
+F 2 "" H 6250 7100 50  0001 C CNN
+F 3 "" H 6250 7100 50  0001 C CNN
+	1    6250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD61C49
+P 6400 7350
+F 0 "220_Om" V 6480 7350 50  0000 C CNN
+F 1 "R" V 6400 7350 50  0000 C CNN
+F 2 "" H 6400 7350 50  0001 C CNN
+F 3 "" H 6400 7350 50  0001 C CNN
+	1    6400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED W-3.3
+U 1 1 5AD63D21
+P 2250 7100
+F 0 "W-3.3" H 2250 7200 50  0000 C CNN
+F 1 "LED" H 2250 7000 50  0000 C CNN
+F 2 "" H 2250 7100 50  0001 C CNN
+F 3 "" H 2250 7100 50  0001 C CNN
+	1    2250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD63E8E
+P 2400 7350
+F 0 "220_Om" V 2480 7350 50  0000 C CNN
+F 1 "R" V 2400 7350 50  0000 C CNN
+F 2 "" H 2400 7350 50  0001 C CNN
+F 3 "" H 2400 7350 50  0001 C CNN
+	1    2400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED W-3.4
+U 1 1 5AD64695
+P 5250 7100
+F 0 "W-3.4" H 5250 7200 50  0000 C CNN
+F 1 "LED" H 5250 7000 50  0000 C CNN
+F 2 "" H 5250 7100 50  0001 C CNN
+F 3 "" H 5250 7100 50  0001 C CNN
+	1    5250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD64852
+P 5400 7350
+F 0 "220_Om" V 5480 7350 50  0000 C CNN
+F 1 "R" V 5400 7350 50  0000 C CNN
+F 2 "" H 5400 7350 50  0001 C CNN
+F 3 "" H 5400 7350 50  0001 C CNN
+	1    5400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED R-3.5
+U 1 1 5AD65CA4
+P 3250 7100
+F 0 "R-3.5" H 3250 7200 50  0000 C CNN
+F 1 "LED" H 3250 7000 50  0000 C CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "" H 3250 7100 50  0001 C CNN
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD65F79
+P 3400 7350
+F 0 "220_Om" V 3480 7350 50  0000 C CNN
+F 1 "R" V 3400 7350 50  0000 C CNN
+F 2 "" H 3400 7350 50  0001 C CNN
+F 3 "" H 3400 7350 50  0001 C CNN
+	1    3400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED R-3.6
+U 1 1 5AD660AE
+P 4250 7100
+F 0 "R-3.6" H 4250 7200 50  0000 C CNN
+F 1 "LED" H 4250 7000 50  0000 C CNN
+F 2 "" H 4250 7100 50  0001 C CNN
+F 3 "" H 4250 7100 50  0001 C CNN
+	1    4250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD6624B
+P 4400 7350
+F 0 "220_Om" V 4480 7350 50  0000 C CNN
+F 1 "R" V 4400 7350 50  0000 C CNN
+F 2 "" H 4400 7350 50  0001 C CNN
+F 3 "" H 4400 7350 50  0001 C CNN
+	1    4400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED B-3.7
+U 1 1 5AD669E0
+P 3250 8600
+F 0 "B-3.7" H 3250 8700 50  0000 C CNN
+F 1 "LED" H 3250 8500 50  0000 C CNN
+F 2 "" H 3250 8600 50  0001 C CNN
+F 3 "" H 3250 8600 50  0001 C CNN
+	1    3250 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD66A83
+P 3400 8850
+F 0 "220_Om" V 3480 8850 50  0000 C CNN
+F 1 "R" V 3400 8850 50  0000 C CNN
+F 2 "" H 3400 8850 50  0001 C CNN
+F 3 "" H 3400 8850 50  0001 C CNN
+	1    3400 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED B-3.8
+U 1 1 5AD66B2E
+P 4250 8600
+F 0 "B-3.8" H 4250 8700 50  0000 C CNN
+F 1 "LED" H 4250 8500 50  0000 C CNN
+F 2 "" H 4250 8600 50  0001 C CNN
+F 3 "" H 4250 8600 50  0001 C CNN
+	1    4250 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 220_Om
+U 1 1 5AD66BC7
+P 4400 8850
+F 0 "220_Om" V 4480 8850 50  0000 C CNN
+F 1 "R" V 4400 8850 50  0000 C CNN
+F 2 "" H 4400 8850 50  0001 C CNN
+F 3 "" H 4400 8850 50  0001 C CNN
+	1    4400 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B17F342
+P 2850 1100
+F 0 "#PWR?" H 2850 850 50  0001 C CNN
+F 1 "Earth" H 2850 950 50  0001 C CNN
+F 2 "" H 2850 1100 50  0001 C CNN
+F 3 "" H 2850 1100 50  0001 C CNN
+	1    2850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1100 2850 1100
+$Comp
+L Earth #PWR?
+U 1 1 5B17F44A
+P 3850 1100
+F 0 "#PWR?" H 3850 850 50  0001 C CNN
+F 1 "Earth" H 3850 950 50  0001 C CNN
+F 2 "" H 3850 1100 50  0001 C CNN
+F 3 "" H 3850 1100 50  0001 C CNN
+	1    3850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1100 3850 1100
+$Comp
+L Earth #PWR?
+U 1 1 5B17F5B3
+P 2350 2100
+F 0 "#PWR?" H 2350 1850 50  0001 C CNN
+F 1 "Earth" H 2350 1950 50  0001 C CNN
+F 2 "" H 2350 2100 50  0001 C CNN
+F 3 "" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2100 2350 2100
+$Comp
+L Earth #PWR?
+U 1 1 5B17F65D
+P 4350 2100
+F 0 "#PWR?" H 4350 1850 50  0001 C CNN
+F 1 "Earth" H 4350 1950 50  0001 C CNN
+F 2 "" H 4350 2100 50  0001 C CNN
+F 3 "" H 4350 2100 50  0001 C CNN
+	1    4350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2100 4350 2100
+$Comp
+L Earth #PWR?
+U 1 1 5B17F948
+P 1350 3100
+F 0 "#PWR?" H 1350 2850 50  0001 C CNN
+F 1 "Earth" H 1350 2950 50  0001 C CNN
+F 2 "" H 1350 3100 50  0001 C CNN
+F 3 "" H 1350 3100 50  0001 C CNN
+	1    1350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3100 1350 3100
+$Comp
+L Earth #PWR?
+U 1 1 5B17FAB2
+P 5350 3100
+F 0 "#PWR?" H 5350 2850 50  0001 C CNN
+F 1 "Earth" H 5350 2950 50  0001 C CNN
+F 2 "" H 5350 3100 50  0001 C CNN
+F 3 "" H 5350 3100 50  0001 C CNN
+	1    5350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3100 5350 3100
+$Comp
+L Earth #PWR?
+U 1 1 5B17FCDD
+P 850 4100
+F 0 "#PWR?" H 850 3850 50  0001 C CNN
+F 1 "Earth" H 850 3950 50  0001 C CNN
+F 2 "" H 850 4100 50  0001 C CNN
+F 3 "" H 850 4100 50  0001 C CNN
+	1    850  4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4100 850  4100
+$Comp
+L Earth #PWR?
+U 1 1 5B17FD89
+P 1850 4100
+F 0 "#PWR?" H 1850 3850 50  0001 C CNN
+F 1 "Earth" H 1850 3950 50  0001 C CNN
+F 2 "" H 1850 4100 50  0001 C CNN
+F 3 "" H 1850 4100 50  0001 C CNN
+	1    1850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4100 1850 4100
+$Comp
+L Earth #PWR?
+U 1 1 5B17FFB6
+P 2850 4100
+F 0 "#PWR?" H 2850 3850 50  0001 C CNN
+F 1 "Earth" H 2850 3950 50  0001 C CNN
+F 2 "" H 2850 4100 50  0001 C CNN
+F 3 "" H 2850 4100 50  0001 C CNN
+	1    2850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4100 2850 4100
+$Comp
+L Earth #PWR?
+U 1 1 5B18008F
+P 3850 4100
+F 0 "#PWR?" H 3850 3850 50  0001 C CNN
+F 1 "Earth" H 3850 3950 50  0001 C CNN
+F 2 "" H 3850 4100 50  0001 C CNN
+F 3 "" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4100 3850 4100
+$Comp
+L Earth #PWR?
+U 1 1 5B1802BE
+P 4850 4100
+F 0 "#PWR?" H 4850 3850 50  0001 C CNN
+F 1 "Earth" H 4850 3950 50  0001 C CNN
+F 2 "" H 4850 4100 50  0001 C CNN
+F 3 "" H 4850 4100 50  0001 C CNN
+	1    4850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4100 4850 4100
+$Comp
+L Earth #PWR?
+U 1 1 5B18036E
+P 5850 4100
+F 0 "#PWR?" H 5850 3850 50  0001 C CNN
+F 1 "Earth" H 5850 3950 50  0001 C CNN
+F 2 "" H 5850 4100 50  0001 C CNN
+F 3 "" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4100 5850 4100
+$Comp
+L Earth #PWR?
+U 1 1 5B1805FA
+P 2350 5100
+F 0 "#PWR?" H 2350 4850 50  0001 C CNN
+F 1 "Earth" H 2350 4950 50  0001 C CNN
+F 2 "" H 2350 5100 50  0001 C CNN
+F 3 "" H 2350 5100 50  0001 C CNN
+	1    2350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5100 2350 5100
+$Comp
+L Earth #PWR?
+U 1 1 5B1806AC
+P 4350 5100
+F 0 "#PWR?" H 4350 4850 50  0001 C CNN
+F 1 "Earth" H 4350 4950 50  0001 C CNN
+F 2 "" H 4350 5100 50  0001 C CNN
+F 3 "" H 4350 5100 50  0001 C CNN
+	1    4350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5100 4350 5100
+$Comp
+L Earth #PWR?
+U 1 1 5B18090F
+P 1350 6100
+F 0 "#PWR?" H 1350 5850 50  0001 C CNN
+F 1 "Earth" H 1350 5950 50  0001 C CNN
+F 2 "" H 1350 6100 50  0001 C CNN
+F 3 "" H 1350 6100 50  0001 C CNN
+	1    1350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6100 1350 6100
+$Comp
+L Earth #PWR?
+U 1 1 5B180AB3
+P 5350 6100
+F 0 "#PWR?" H 5350 5850 50  0001 C CNN
+F 1 "Earth" H 5350 5950 50  0001 C CNN
+F 2 "" H 5350 6100 50  0001 C CNN
+F 3 "" H 5350 6100 50  0001 C CNN
+	1    5350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6100 5350 6100
+$Comp
+L Earth #PWR?
+U 1 1 5B180CE8
+P 850 7100
+F 0 "#PWR?" H 850 6850 50  0001 C CNN
+F 1 "Earth" H 850 6950 50  0001 C CNN
+F 2 "" H 850 7100 50  0001 C CNN
+F 3 "" H 850 7100 50  0001 C CNN
+	1    850  7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7100 850  7100
+$Comp
+L Earth #PWR?
+U 1 1 5B180DCE
+P 1850 7100
+F 0 "#PWR?" H 1850 6850 50  0001 C CNN
+F 1 "Earth" H 1850 6950 50  0001 C CNN
+F 2 "" H 1850 7100 50  0001 C CNN
+F 3 "" H 1850 7100 50  0001 C CNN
+	1    1850 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7100 1850 7100
+$Comp
+L Earth #PWR?
+U 1 1 5B180EB5
+P 2850 7100
+F 0 "#PWR?" H 2850 6850 50  0001 C CNN
+F 1 "Earth" H 2850 6950 50  0001 C CNN
+F 2 "" H 2850 7100 50  0001 C CNN
+F 3 "" H 2850 7100 50  0001 C CNN
+	1    2850 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7100 2850 7100
+$Comp
+L Earth #PWR?
+U 1 1 5B180FCD
+P 3850 7100
+F 0 "#PWR?" H 3850 6850 50  0001 C CNN
+F 1 "Earth" H 3850 6950 50  0001 C CNN
+F 2 "" H 3850 7100 50  0001 C CNN
+F 3 "" H 3850 7100 50  0001 C CNN
+	1    3850 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7100 3850 7100
+$Comp
+L Earth #PWR?
+U 1 1 5B181086
+P 4850 7100
+F 0 "#PWR?" H 4850 6850 50  0001 C CNN
+F 1 "Earth" H 4850 6950 50  0001 C CNN
+F 2 "" H 4850 7100 50  0001 C CNN
+F 3 "" H 4850 7100 50  0001 C CNN
+	1    4850 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 7100 4850 7100
+$Comp
+L Earth #PWR?
+U 1 1 5B181140
+P 5850 7100
+F 0 "#PWR?" H 5850 6850 50  0001 C CNN
+F 1 "Earth" H 5850 6950 50  0001 C CNN
+F 2 "" H 5850 7100 50  0001 C CNN
+F 3 "" H 5850 7100 50  0001 C CNN
+	1    5850 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7100 5850 7100
+$Comp
+L Earth #PWR?
+U 1 1 5B18134B
+P 2850 8600
+F 0 "#PWR?" H 2850 8350 50  0001 C CNN
+F 1 "Earth" H 2850 8450 50  0001 C CNN
+F 2 "" H 2850 8600 50  0001 C CNN
+F 3 "" H 2850 8600 50  0001 C CNN
+	1    2850 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 8600 2850 8600
+$Comp
+L Earth #PWR?
+U 1 1 5B181407
+P 3850 8600
+F 0 "#PWR?" H 3850 8350 50  0001 C CNN
+F 1 "Earth" H 3850 8450 50  0001 C CNN
+F 2 "" H 3850 8600 50  0001 C CNN
+F 3 "" H 3850 8600 50  0001 C CNN
+	1    3850 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 8600 3850 8600
+$Comp
+L 74HC595 SR1
+U 1 1 5B182990
+P 4200 11000
+F 0 "SR1" H 3900 11550 50  0000 C CNN
+F 1 "74HC595" H 3900 10350 50  0000 C CNN
+F 2 "" H 4200 11000 50  0001 C CNN
+F 3 "" H 4200 11000 50  0001 C CNN
+	1    4200 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC595 SR2
+U 1 1 5B182A29
+P 6200 11900
+F 0 "SR2" H 5900 12450 50  0000 C CNN
+F 1 "74HC595" H 5900 11250 50  0000 C CNN
+F 2 "" H 6200 11900 50  0001 C CNN
+F 3 "" H 6200 11900 50  0001 C CNN
+	1    6200 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC595 SR3
+U 1 1 5B182AC4
+P 8200 12800
+F 0 "SR3" H 7900 13350 50  0000 C CNN
+F 1 "74HC595" H 7900 12150 50  0000 C CNN
+F 2 "" H 8200 12800 50  0001 C CNN
+F 3 "" H 8200 12800 50  0001 C CNN
+	1    8200 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Nano_v3.x Arduino
+U 1 1 5B182B69
+P 1600 11400
+F 0 "Arduino" H 1400 12425 50  0000 R CNN
+F 1 "Arduino_Nano_v3.x" H 1400 12350 50  0000 R CNN
+F 2 "Module:Arduino_Nano" H 1750 10450 50  0001 L CNN
+F 3 "" H 1600 10400 50  0001 C CNN
+	1    1600 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 11500 5700 11500
+Wire Wire Line
+	6700 12400 7700 12400
+Text GLabel 8700 12400 2    60   Input ~ 0
+R-1.1
+Text GLabel 8700 12500 2    60   Input ~ 0
+R-1.2
+Text GLabel 8700 12600 2    60   Input ~ 0
+G-1.3
+Text GLabel 8700 12700 2    60   Input ~ 0
+G-1.4
+Text GLabel 8700 12800 2    60   Input ~ 0
+B-1.5
+Text GLabel 8700 12900 2    60   Input ~ 0
+B-1.6
+Text GLabel 8700 13000 2    60   Input ~ 0
+Y-1.7
+Text GLabel 8700 13100 2    60   Input ~ 0
+Y-1.8
+Text GLabel 6700 11500 2    60   Input ~ 0
+R-2.1
+Text GLabel 6700 11600 2    60   Input ~ 0
+R-2.2
+Text GLabel 6700 11700 2    60   Input ~ 0
+G-2.3
+Text GLabel 6700 11800 2    60   Input ~ 0
+G-2.4
+Text GLabel 6700 11900 2    60   Input ~ 0
+B-2.5
+Text GLabel 6700 12000 2    60   Input ~ 0
+B-2.6
+Text GLabel 6700 12100 2    60   Input ~ 0
+Y-2.7
+Text GLabel 6700 12200 2    60   Input ~ 0
+Y-2.8
+Text GLabel 4700 10600 2    60   Input ~ 0
+W-3.1
+Text GLabel 4700 10700 2    60   Input ~ 0
+W-3.2
+Text GLabel 4700 10800 2    60   Input ~ 0
+W-3.3
+Text GLabel 4700 10900 2    60   Input ~ 0
+W-3.4
+Text GLabel 4700 11000 2    60   Input ~ 0
+R-3.5
+Text GLabel 4700 11100 2    60   Input ~ 0
+R-3.6
+Text GLabel 4700 11200 2    60   Input ~ 0
+B-3.7
+Text GLabel 4700 11300 2    60   Input ~ 0
+B-3.8
+$Comp
+L Earth #PWR?
+U 1 1 5B1A0E5A
+P 1700 13550
+F 0 "#PWR?" H 1700 13300 50  0001 C CNN
+F 1 "Earth" H 1700 13400 50  0001 C CNN
+F 2 "" H 1700 13550 50  0001 C CNN
+F 3 "" H 1700 13550 50  0001 C CNN
+	1    1700 13550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 12400 1700 13550
+Wire Wire Line
+	6200 13600 8200 13600
+Wire Wire Line
+	1700 13000 7700 13000
+Connection ~ 6200 13000
+Wire Wire Line
+	6200 13600 6200 12700
+Connection ~ 1700 13000
+Wire Wire Line
+	4200 11800 4200 13000
+Connection ~ 4200 13000
+Wire Wire Line
+	3700 11200 3600 11200
+Wire Wire Line
+	3600 11200 3600 13000
+Connection ~ 3600 13000
+Wire Wire Line
+	5700 12100 5600 12100
+Wire Wire Line
+	5600 12100 5600 13000
+Connection ~ 5600 13000
+Wire Wire Line
+	1100 11100 900  11100
+Wire Wire Line
+	900  11100 900  10200
+Wire Wire Line
+	900  10200 3500 10200
+Wire Wire Line
+	3500 10200 3500 10600
+Wire Wire Line
+	3500 10600 3700 10600
+$Comp
+L +5V #PWR?
+U 1 1 5B1A4364
+P 1800 10000
+F 0 "#PWR?" H 1800 9850 50  0001 C CNN
+F 1 "+5V" H 1800 10140 50  0000 C CNN
+F 2 "" H 1800 10000 50  0001 C CNN
+F 3 "" H 1800 10000 50  0001 C CNN
+	1    1800 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 10000 1800 10400
+Wire Wire Line
+	1800 10100 8200 10100
+Wire Wire Line
+	4200 10100 4200 10300
+Connection ~ 1800 10100
+Wire Wire Line
+	6200 10100 6200 11200
+Connection ~ 4200 10100
+Wire Wire Line
+	8200 10100 8200 12150
+Connection ~ 6200 10100
+Wire Wire Line
+	3700 10900 3300 10900
+Wire Wire Line
+	3300 10900 3300 10100
+Connection ~ 3300 10100
+Wire Wire Line
+	1100 11300 1000 11300
+Wire Wire Line
+	1000 11300 1000 13100
+Wire Wire Line
+	1000 13100 7400 13100
+Wire Wire Line
+	3400 13100 3400 10800
+Wire Wire Line
+	3400 10800 3700 10800
+Wire Wire Line
+	5700 11700 5400 11700
+Wire Wire Line
+	5400 11700 5400 13100
+Connection ~ 3400 13100
+Wire Wire Line
+	5700 11800 5300 11800
+Wire Wire Line
+	5300 11800 5300 10100
+Connection ~ 5300 10100
+Connection ~ 5400 13100
+Wire Wire Line
+	1100 11500 900  11500
+Wire Wire Line
+	900  11500 900  13200
+Wire Wire Line
+	900  13200 7500 13200
+Wire Wire Line
+	3500 13200 3500 11100
+Wire Wire Line
+	3500 11100 3700 11100
+Connection ~ 3500 13200
+Wire Wire Line
+	5500 13200 5500 12000
+Wire Wire Line
+	5500 12000 5700 12000
+Connection ~ 5500 13200
+Wire Wire Line
+	7700 12700 7300 12700
+Wire Wire Line
+	7300 12700 7300 10100
+Connection ~ 7300 10100
+Wire Wire Line
+	7700 12600 7400 12600
+Wire Wire Line
+	7400 12600 7400 13100
+Wire Wire Line
+	7500 13200 7500 12900
+Wire Wire Line
+	7500 12900 7700 12900
+Text GLabel 3400 1600 2    60   Input ~ 0
+R-1.1
+Text GLabel 4400 1600 2    60   Input ~ 0
+R-1.2
+Text GLabel 2900 2600 2    60   Input ~ 0
+G-1.3
+Text GLabel 4900 2600 2    60   Input ~ 0
+G-1.4
+Text GLabel 1900 3600 2    60   Input ~ 0
+B-1.5
+Text GLabel 5900 3600 2    60   Input ~ 0
+B-1.6
+Text GLabel 1400 4600 2    60   Input ~ 0
+Y-1.7
+Text GLabel 2400 4600 2    60   Input ~ 0
+W-3.1
+Text GLabel 3400 4600 2    60   Input ~ 0
+R-2.1
+Text GLabel 4400 4600 2    60   Input ~ 0
+R-2.2
+Text GLabel 5400 4600 2    60   Input ~ 0
+W-3.2
+Text GLabel 6400 4600 2    60   Input ~ 0
+Y-1.8
+Text GLabel 2900 5600 2    60   Input ~ 0
+G-2.3
+Text GLabel 4900 5600 2    60   Input ~ 0
+G-2.4
+Text GLabel 1900 6600 2    60   Input ~ 0
+B-2.5
+Text GLabel 5900 6600 2    60   Input ~ 0
+B-2.6
+Text GLabel 1400 7600 2    60   Input ~ 0
+Y-2.7
+Text GLabel 2400 7600 2    60   Input ~ 0
+W-3.3
+Text GLabel 3400 7600 2    60   Input ~ 0
+R-3.5
+Text GLabel 4400 7600 2    60   Input ~ 0
+R-3.6
+Text GLabel 5400 7600 2    60   Input ~ 0
+W-3.4
+Text GLabel 6400 7600 2    60   Input ~ 0
+Y-2.8
+Text GLabel 3400 9100 2    60   Input ~ 0
+B-3.7
+Text GLabel 4400 9100 2    60   Input ~ 0
+B-3.8
+$EndSCHEMATC
